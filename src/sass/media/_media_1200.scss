@@ -1,0 +1,26 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 780px;
+    }
+    
+    .title {
+        &_left {
+            text-align: left;
+            font-size: 32px;
+            line-height: 40px;
+            color: #FFFFFF;
+        }
+    }
+    
+    .carousel {
+        &__inner {
+            width: 550px;
+        }
+        .slick-prev, .slick-next {
+            img {
+                width: 22px;
+                height: 32px;
+            }
+        }
+    }
+}
