@@ -13,7 +13,7 @@
     .button {
         width: 110px;
         height: 22px;
-        font-size: 10px;
+        font-size: 8px;
         &_main {
             margin-top: 50px;
             width: 210px;
@@ -23,7 +23,7 @@
         &_submit {
             width: 100%;
             height: 40px;
-            font-size: 14px;
+            font-size: 11px;
         }
         &_mini {
             width: 135px;
@@ -78,7 +78,7 @@
         }
     }
     .feed-form {
-        width: 250px;
+        width: 200px;
         input {
             height: 40px;
         }
@@ -150,4 +150,25 @@
             height: 400px;
         }
     }
+
+    .modal {
+        padding: 35px 15px 40px 15px;
+        width: 235px;
+        min-height: 325px;
+        &__close {
+            right: -27px;
+            font-size: 30px;
+            line-height: 14px;
+        }
+        &__subtitle {
+            font-size: 10px;
+        }
+        &__descr {
+            font-size: 7px;
+        }
+        .error {
+            font-size: 10px;
+        }
+    }
+
 }
